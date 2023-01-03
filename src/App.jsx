@@ -1,6 +1,6 @@
 import React from 'react'
-import {Stack, Button } from '@mui/material';
-
+import {Stack, Button, IconButton } from '@mui/material';
+import { AccessAlarm as AccessAlarmIcon, Delete as DeleteIcon} from '@mui/icons-material';
 
 const App = () => {
   return (
@@ -12,7 +12,19 @@ const App = () => {
         <Button 
           color="secondary"
           variant="contained" 
-          >Segundo Botón
+        ><AccessAlarmIcon 
+          color='info' 
+          //fontSize='large'  
+          sx={{ fontSize: 40 }}
+          /> Segundo Botón
+        </Button>
+
+        <Button 
+          variant="outlined" 
+          startIcon={<DeleteIcon />}
+          color="inherit"
+          >
+          Delete
         </Button>
       </Stack>
     </>

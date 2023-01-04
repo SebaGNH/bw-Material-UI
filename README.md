@@ -11,7 +11,7 @@ core es para el cdn
 <Button variant="text">Text</Button> 
 
 
-
+ 
 <Button variant="contained" disableElevation>
   Disable elevation
 </Button>
@@ -47,6 +47,53 @@ import DeleteIcon from '@mui/icons-material/Delete';
 <IconButton color="secondary" aria-label="add an alarm">
   <AlarmIcon />
 </IconButton>
+
+
+
+<!-- https://mui.com/material-ui/api/typography/ -->
+<!-- Typography =  variant="" h1 | h2 | h3 | h4 | h5 | h6 -->
+<!-- subtitle1 | subtitle2 | body1 | body2 | button | caption | overline-->
+<!-- body1 = parrafo -->
+<Typography variant="h1">
+  h1. Heading
+</Typography>
+
+
+<!-- align="" center | right | justify -->
+<Typography align="center" variant="h6">
+  variant
+</Typography>
+
+<!-- gutterBottom es un margen -->
+
+
+
+
+<!-- Propiedades para cambiar -->
+<!-- https://mui.com/material-ui/customization/default-theme/ -->
+
+
+<!-- Colores -->
+<!-- https://mui.com/material-ui/customization/color/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

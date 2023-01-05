@@ -1,5 +1,5 @@
 import React from 'react'
-import { Botones, Estilos, TemaPersonalizado, Tipografia } from './components';
+import { Botones, Estilos, NavBar, TemaPersonalizado, Tipografia } from './components';
 
 const App = () => {
   return (
@@ -7,7 +7,8 @@ const App = () => {
       {/* <Botones/> */}
       {/* <Tipografia/> */}
       {/* <Estilos/> */}
-      <TemaPersonalizado />
+      {/* <TemaPersonalizado /> */}
+      <NavBar/>
     </>
   )
 }
